@@ -7,17 +7,14 @@ Este proyecto integra los 4 retos en una sola aplicación con menú de navegaci�
 1. Extrae este archivo ZIP.
 2. Abre una terminal dentro de la carpeta `cuatro_retos_flutter`.
 3. Si necesitas generar las carpetas nativas (`android/`, `windows/`, `web/`), ejecuta:
-   ```bash
    flutter create .
-   ```
+
 4. Instala las dependencias:
-   ```bash
    flutter pub get
-   ```
+
 5. Ejecuta la aplicación:
-   ```bash
    flutter run
-   ```
+
 
 ## Qué incluye cada pantalla
 - **Reto 1 (`lib/screens/reto1_peliculas.dart`)**: Selector por estado de ánimo conectado a la API de OMDb con tarjeta, póster, calificación IMDb y sinopsis.
